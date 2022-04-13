@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #91a56a;
+    max-width: 767px;
+}
+.cabeza {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 187px;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    min-width: 100%;
+    max-width: auto;
+    align-items: flex-end;
+    font-family: monospace;
+    font-size: 20px;
+    color: #073b07;
+    text-align: right;
+
+}
+.menu .secciones ul {
+    align-items: flex-end;
+}
+
+.logo {
+    display: flex;
+    width: 167px;
+    height: 167px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.secciones {
+    text-align: right;
+}
+.secciones li {
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+}
+.segmento {
+    background: linear-gradient(#38ec38,#9acd32) ;
+    font-family: monospace;
+    color: #2c032c;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.segmento h1 {
+    background-color: #c6f36b;
+    font-size: 30px;
+    text-align: center;
+}
+.segmento h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 5px;
+}
+.segmento2 {
+    background: radial-gradient(#38ec38,#9acd32);
+    font-family: monospace;
+    font-size: 20px;
+    color: #2c032c;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.campo2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: monospace;
+    color: #073b07;
+}
+footer p {
+    font-family: monospace;
+    font-size: 15px;
+    color: #073b07;
+    text-align: center;
+}
